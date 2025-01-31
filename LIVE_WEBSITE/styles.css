@@ -1,0 +1,196 @@
+/* Lettertypen importeren */
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Dupincel VF';
+    src: url('fonts/DupincelVF.woff2') format('woff2');
+}
+
+/* Algemene stijlen voor de hele pagina */
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: #fffbd9;
+    color: #013b14;
+}
+
+
+/* Links */
+.link {
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 14pt;
+    color: #013b14;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Header stijlen */
+header {
+    justify-content: center;
+    font-family: 'poppins'; 
+    font-size: 14pt;
+    background: #dac980;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Navigatie stijlen */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+}
+
+/* Logo stijlen */
+.top-bar img {
+    width: 200px;
+    height: 130px;
+}
+
+/* Lijststijlen */
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    margin-right: 15px;
+    color: #013b14;
+}
+
+/* H1 stijlen */
+h1 {
+   font-family: 'poppins';
+   font-size: 14pt;
+}
+
+/* P stijlen */
+p {
+    font-family: 'Dupincel VF';
+    font-size: 12pt;
+}
+
+/* Button stijlen */
+a {
+    text-align: center;
+    color: #dac980;
+}
+
+button:hover {
+    background: #72a66a;
+    border: 2px solid#dac980;
+    border-radius: 0.2em;
+}
+
+/* RRR sectie stijlen */
+.rrr {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+.rrr img {
+    margin: 0 10px;
+    margin-bottom: 40px;
+}
+
+/* Content container stijlen */
+.content-container {
+    background-color:#013b14;
+    text-align: center;
+    padding: 20px;
+    color: #dac980;
+    margin-bottom: 40px;
+}
+
+.top-image {
+    width: 250px;
+    height: auto;
+    margin-top: -200px;
+    align-self: center;
+}
+
+.button-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.main-text {
+    color: #dac980;
+}
+
+/* Afbeeldingen sectie stijlen */
+.afbeeldingen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.afbeeldingen img {
+    border: 2px solid #dac980;
+    border-radius: 2em;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Footer stijlen */
+footer {
+    background-color: #013b14;
+    color: #dac980;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    border-top: 1px solid #dac980;
+    padding-top: 10px;
+}
+
+.groenvlak{
+    background: #013b14;
+    color: #dac980;
+    margin-bottom: 40px;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;
+}
+
+.knop{
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    background: #00802e;
+    padding: 1.5em 2em;
+    border: 2px #dac980;
+    border-radius: 0.2em;
+    margin-top: 40px;
+    width: fit-content;
+    align-self: center;
+}
+
+.knop:hover {
+    border: 4px solid #dac980;
+}
+  
